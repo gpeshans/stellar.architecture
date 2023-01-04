@@ -6,8 +6,3 @@ public
 .cache
 # don't lint generated types
 src/gatsby-types.d.ts
-# don't lint lock and config files
-# .husky
-# .eslintignore
-# package.json
-# package-lock.json
