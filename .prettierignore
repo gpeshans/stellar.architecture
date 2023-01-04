@@ -1,0 +1,12 @@
+
+# Ignore artifacts:
+public
+.cache
+
+# Ignore node_modules
+node_modules
+
+# Ignore setup files
+.eslintignore
+.husky
+.prettierignore
