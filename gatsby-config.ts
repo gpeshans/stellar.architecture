@@ -22,6 +22,15 @@ const config: GatsbyConfig = {
         host: process.env.CONTENTFUL_HOST,
       },
     },
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sass`,
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [`Courier+Prime:300,400`, `Montserrat:300,400`],
+        display: 'swap',
+      },
+    },
     'gatsby-plugin-styled-components',
     'gatsby-plugin-google-gtag',
     'gatsby-plugin-image',
